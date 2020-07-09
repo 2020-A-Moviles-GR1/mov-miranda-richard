@@ -1,0 +1,5 @@
+Factura No. 12
+Concepto: Compra
+Valor del impuesto: 1.1
+Total de la factura: 12.3
+Conformidad con la factura: true

@@ -1,0 +1,5 @@
+Factura No. 1
+Concepto: we
+Valor del impuesto: 1.1
+Total de la factura: 2.2
+Conformidad con la factura: false
