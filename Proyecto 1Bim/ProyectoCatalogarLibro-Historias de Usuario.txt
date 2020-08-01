@@ -6,3 +6,9 @@ Integrante: Richard Miranda
 Historias de usuario:
 https://dev.azure.com/richardmiranda/ProyectoCatalogarLibros/_workitems/recentlyupdated/
 
+En caso de que los archivos pdf no funcionen: 
+  Prototipos: 
+  https://pr.to/HUB8LA/
+  
+  Diseño de base de datos: 
+  https://app.lucidchart.com/publicSegments/view/d105cc35-ebb0-46e0-a518-94a9ca5e51d8/image.pdf
