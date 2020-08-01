@@ -1,0 +1,8 @@
+Proyecto Bimestral
+
+Catalogar y Opinar sobre libros
+Integrante: Richard Miranda
+
+Historias de usuario:
+https://dev.azure.com/richardmiranda/ProyectoCatalogarLibros/_workitems/recentlyupdated/
+
