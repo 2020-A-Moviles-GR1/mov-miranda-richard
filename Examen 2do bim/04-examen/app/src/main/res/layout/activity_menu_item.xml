@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".MenuEmpleado">
+
+    <Button
+        android:id="@+id/bnt_reg_empleado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUEVO ITEM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/btn_mostr_empleado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="LISTADO DE ITEMS"
+        app:layout_constraintEnd_toEndOf="@+id/btn_elim_empleado"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_elim_empleado"
+        app:layout_constraintTop_toBottomOf="@+id/btn_elim_empleado" />
+
+    <Button
+        android:id="@+id/btn_elim_empleado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="BORRAR ITEM"
+        app:layout_constraintEnd_toEndOf="@+id/btn_act_empleado"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/btn_act_empleado"
+        app:layout_constraintTop_toBottomOf="@+id/btn_act_empleado" />
+
+    <Button
+        android:id="@+id/btn_act_empleado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="CAMBIAR DATOS"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_reg_empleado"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/bnt_reg_empleado"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_reg_empleado" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITEM"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/btn_cancelar_empleado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="GESTIONAR FACTURA"
+        app:layout_constraintEnd_toEndOf="@+id/btn_mostr_empleado"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/btn_mostr_empleado"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mostr_empleado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
